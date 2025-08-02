@@ -1,7 +1,11 @@
+
+import ImageMasonry from '../components/ImageMasonry';
+
+
 export default function Home() {
   return (
-    <main>
-      <div>Next.js on GitHub Pages edited by Fran again</div>
-    </main>
-  );
+        <ImageMasonry />
+  )
 }
+
+
