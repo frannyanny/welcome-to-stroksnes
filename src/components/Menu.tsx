@@ -1,7 +1,7 @@
 const pagenames = [
 	{
 		title: 'About',
-		link: '/about',
+		link: 'about',
 	},
 	// {
 	// 	title: 'Gallery',
