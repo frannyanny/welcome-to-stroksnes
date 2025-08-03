@@ -1,13 +1,18 @@
-import withMDX from '@next/mdx';
-import type { NextConfig } from 'next';
+import createMDX from '@next/mdx'
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: '/welcome-to-stroksnes',
+  basePath: process.env.PAGES_BASE_PATH,
   images: { unoptimized: true },
-  pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
+    // Configure `pageExtensions` to include markdown and MDX files
+    pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
 };
 
-export default withMDX({
-  extension: /\.mdx?$/,
-})(nextConfig);
+const withMDX = createMDX({
+  extension: /\.(md|mdx)$/,
+})
+
+// Merge MDX config with Next.js config
+export default withMDX(nextConfig)
+
