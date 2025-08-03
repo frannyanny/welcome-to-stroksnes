@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   output: 'export',
  // basePath: process.env.PAGES_BASE_PATH,
   basePath: "/welcome-to-stroksnes",
-  assetPrefix: "/welcome-to-stroksnes",
+  assetPrefix: "/welcome-to-stroksnes/",
   images: { unoptimized: true },
     // Configure `pageExtensions` to include markdown and MDX files
     pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
