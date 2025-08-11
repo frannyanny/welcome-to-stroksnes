@@ -65,19 +65,6 @@
     "alt": "Torrrfesk_konica_kmp400at200_25007_20250429_011-positive.jpg"
   },
   {
-    "name": "Towards_Home_zinsquare_berggerpancro_25008_20250428_007-positive.jpg",
-    "relPath": "images/Towards_Home_zinsquare_berggerpancro_25008_20250428_007-positive.jpg",
-    "size": 4129605,
-    "createdAt": "2025-07-18T06:31:38.535Z",
-    "height": 3127,
-    "width": 4851,
-    "title": "Towards Home",
-    "photographer": "Francesca Watson",
-    "film": "Bergger Pancro",
-    "camera": "Zeiss Ikon Nettar 518/16",
-    "alt": "Towards_Home_zinsquare_berggerpancro_25008_20250428_007-positive.jpg"
-  },
-  {
     "name": "Watching_the_Storm_canon3000_p3200at1000_sd026_20240310_026-positive.jpg",
     "relPath": "images/Watching_the_Storm_canon3000_p3200at1000_sd026_20240310_026-positive.jpg",
     "size": 2842765,
@@ -193,5 +180,31 @@
     "film": "Lomo Babylon 13",
     "camera": "Canon AE-1 Program",
     "alt": "100324_babylon_13pushed_18_redigert.jpg"
+  },
+  {
+    "name": "curves_triangles_2048px.jpg",
+    "relPath": "/images/curves_triangles_2048px.jpg",
+    "size": 2277410,
+    "createdAt": "2025-08-11T19:36:34.000Z",
+    "height": 2048,
+    "width": 2048,
+    "title": "Curves and Triangles",
+    "photographer": "Ørjan Laxaa",
+    "film": "Kentmere Pan 200",
+    "camera": "Mamiya 6MF",
+    "alt": "curves_triangles_2048px.jpg"
+  },
+  {
+    "name": "death_in_the_field_2048px.jpg",
+    "relPath": "/images/death_in_the_field_2048px.jpg",
+    "size": 3084460,
+    "createdAt": "2025-08-11T19:34:47.000Z",
+    "height": 2048,
+    "width": 2048,
+    "title": "Death on the Beach",
+    "photographer": "Ørjan Laxaa",
+    "film": "Kentmere Pan 200",
+    "camera": "Mamiya 6MF",
+    "alt": "death_in_the_field_2048px.jpg"
   }
 ]
